@@ -8,6 +8,7 @@
            remote="github"
            sync-j="4" />
 
+  <project name="LineageOS/android_hardware_xiaomi" />
   <project name="StatiXOS/android_art" />
   <project name="StatiXOS/android_bionic" />
   <project name="StatiXOS/android_bootable_recovery" />
@@ -176,4 +177,6 @@
   <project name="StatiXOS/android_vendor_xiaomi" />
   <project name="StatiXOS/hudson" />
   <project name="StatiXOS/statixos.github.io" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_common" />
+  <project name="kdrag0n/proton-clang" />
 </manifest>

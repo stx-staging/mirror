@@ -36,6 +36,11 @@ repos = []
 for repo in org.get_repos():
     repos.append(repo.full_name)
 
+# special repos that are enormous and used
+repos.append("LineageOS/android_hardware_xiaomi")
+repos.append("ThankYouMario/proprietary_vendor_qcom_common")
+repos.append("kdrag0n/proton-clang")
+
 for repo in sorted(repos):
     file.write("  <project name=\"" + repo + "\" />\n")
 
