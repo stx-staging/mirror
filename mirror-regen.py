@@ -30,19 +30,26 @@ file.write("  <default revision=\"master\"\n")
 file.write("           remote=\"github\"\n")
 file.write("           sync-j=\"4\" />\n")
 file.write("\n")
+file.write("  <remote  name=\"statix\"\n")
+file.write("           fetch=\"../StatiXOS\" />\n")
+file.write("\n")
 
 repos = []
 
 for repo in org.get_repos():
-    repos.append(repo.full_name)
+    repos.append(repo.name)
 
 # special repos that are enormous and used
-repos.append("LineageOS/android_hardware_xiaomi")
-repos.append("ThankYouMario/proprietary_vendor_qcom_common")
-repos.append("kdrag0n/proton-clang")
-repos.append("mvaisakh/gcc-arm64")
+special_repos = []
+special_repos.append("LineageOS/android_hardware_xiaomi")
+special_repos.append("ThankYouMario/proprietary_vendor_qcom_common")
+special_repos.append("kdrag0n/proton-clang")
+special_repos.append("mvaisakh/gcc-arm64")
 
 for repo in sorted(repos):
+    file.write("  <project name=\"" + repo + "\" remote=\"statix\" />\n")
+
+for repo in special_repos:
     file.write("  <project name=\"" + repo + "\" />\n")
 
 file.write("</manifest>\n")

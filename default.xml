@@ -8,175 +8,178 @@
            remote="github"
            sync-j="4" />
 
+  <remote  name="statix"
+           fetch="../StatiXOS" />
+
+  <project name="android_art" remote="statix" />
+  <project name="android_bionic" remote="statix" />
+  <project name="android_bootable_recovery" remote="statix" />
+  <project name="android_build" remote="statix" />
+  <project name="android_build_blueprint" remote="statix" />
+  <project name="android_build_soong" remote="statix" />
+  <project name="android_development" remote="statix" />
+  <project name="android_device_essential_mata" remote="statix" />
+  <project name="android_device_google_bonito" remote="statix" />
+  <project name="android_device_google_bonito-sepolicy" remote="statix" />
+  <project name="android_device_google_sargo" remote="statix" />
+  <project name="android_device_google_taimen" remote="statix" />
+  <project name="android_device_google_wahoo" remote="statix" />
+  <project name="android_device_huawei_angler" remote="statix" />
+  <project name="android_device_huawei_angler-common" remote="statix" />
+  <project name="android_device_huawei_angler_4core" remote="statix" />
+  <project name="android_device_mediatek_sepolicy" remote="statix" />
+  <project name="android_device_motorola_evert" remote="statix" />
+  <project name="android_device_motorola_sdm660-common" remote="statix" />
+  <project name="android_device_nubia_TP1803" remote="statix" />
+  <project name="android_device_oneplus_common" remote="statix" />
+  <project name="android_device_oneplus_extras" remote="statix" />
+  <project name="android_device_oneplus_fajita" remote="statix" />
+  <project name="android_device_oneplus_guacamole" remote="statix" />
+  <project name="android_device_oneplus_guacamoleb" remote="statix" />
+  <project name="android_device_oneplus_hotdogb" remote="statix" />
+  <project name="android_device_oneplus_oneplus3" remote="statix" />
+  <project name="android_device_oneplus_sdm845-common" remote="statix" />
+  <project name="android_device_oneplus_sm8150-common" remote="statix" />
+  <project name="android_device_qcom_common" remote="statix" />
+  <project name="android_device_qcom_sepolicy" remote="statix" />
+  <project name="android_device_statix_sepolicy" remote="statix" />
+  <project name="android_device_twrp" remote="statix" />
+  <project name="android_device_xiaomi_davinci" remote="statix" />
+  <project name="android_device_xiaomi_ginkgo" remote="statix" />
+  <project name="android_device_xiaomi_miatoll" remote="statix" />
+  <project name="android_device_xiaomi_sm6250-common" remote="statix" />
+  <project name="android_external_ant-wireless_ant_native" remote="statix" />
+  <project name="android_external_ant-wireless_ant_service" remote="statix" />
+  <project name="android_external_ant-wireless_antradio-library" remote="statix" />
+  <project name="android_external_arm-optimized-routines" remote="statix" />
+  <project name="android_external_asus_stitchimage" remote="statix" />
+  <project name="android_external_drm_hwcomposer" remote="statix" />
+  <project name="android_external_e2fsprogs" remote="statix" />
+  <project name="android_external_google" remote="statix" />
+  <project name="android_external_gptfdisk" remote="statix" />
+  <project name="android_external_json-c" remote="statix" />
+  <project name="android_external_libncurses" remote="statix" />
+  <project name="android_external_libnfc-nxp" remote="statix" />
+  <project name="android_external_perfetto" remote="statix" />
+  <project name="android_external_selinux" remote="statix" />
+  <project name="android_external_tinycompress" remote="statix" />
+  <project name="android_frameworks_av" remote="statix" />
+  <project name="android_frameworks_base" remote="statix" />
+  <project name="android_frameworks_compile_mclinker" remote="statix" />
+  <project name="android_frameworks_native" remote="statix" />
+  <project name="android_frameworks_opt_net_ims" remote="statix" />
+  <project name="android_frameworks_opt_net_wifi" remote="statix" />
+  <project name="android_frameworks_opt_telephony" remote="statix" />
+  <project name="android_frameworks_rs" remote="statix" />
+  <project name="android_frameworks_support" remote="statix" />
+  <project name="android_hardware_broadcom_wlan" remote="statix" />
+  <project name="android_hardware_interfaces" remote="statix" />
+  <project name="android_hardware_libhardware" remote="statix" />
+  <project name="android_hardware_libhardware_legacy" remote="statix" />
+  <project name="android_hardware_nxp_nfc" remote="statix" />
+  <project name="android_hardware_qcom-caf_common" remote="statix" />
+  <project name="android_hardware_qcom_audio" remote="statix" />
+  <project name="android_hardware_qcom_bootctrl" remote="statix" />
+  <project name="android_hardware_qcom_bt" remote="statix" />
+  <project name="android_hardware_qcom_camera" remote="statix" />
+  <project name="android_hardware_qcom_display" remote="statix" />
+  <project name="android_hardware_qcom_fm" remote="statix" />
+  <project name="android_hardware_qcom_gps" remote="statix" />
+  <project name="android_hardware_qcom_keymaster" remote="statix" />
+  <project name="android_hardware_qcom_media" remote="statix" />
+  <project name="android_hardware_qcom_power" remote="statix" />
+  <project name="android_hardware_qcom_wlan" remote="statix" />
+  <project name="android_hardware_ril" remote="statix" />
+  <project name="android_hardware_statix_interfaces" remote="statix" />
+  <project name="android_kernel_essential_msm8998" remote="statix" />
+  <project name="android_kernel_google_bonito" remote="statix" />
+  <project name="android_kernel_google_wahoo" remote="statix" />
+  <project name="android_kernel_huawei_angler" remote="statix" />
+  <project name="android_kernel_motorola_msm8998" remote="statix" />
+  <project name="android_kernel_nubia_sm8150" remote="statix" />
+  <project name="android_kernel_oneplus_msm8996" remote="statix" />
+  <project name="android_kernel_oneplus_sdm845" remote="statix" />
+  <project name="android_kernel_oneplus_sm8150" remote="statix" />
+  <project name="android_kernel_xiaomi_davinci" remote="statix" />
+  <project name="android_kernel_xiaomi_ginkgo" remote="statix" />
+  <project name="android_kernel_xiaomi_sm6250" remote="statix" />
+  <project name="android_libcore" remote="statix" />
+  <project name="android_manifest" remote="statix" />
+  <project name="android_packages_apps_AuxiliaryKeyHandler" remote="statix" />
+  <project name="android_packages_apps_Bluetooth" remote="statix" />
+  <project name="android_packages_apps_Changelog" remote="statix" />
+  <project name="android_packages_apps_Contacts" remote="statix" />
+  <project name="android_packages_apps_CustomDoze" remote="statix" />
+  <project name="android_packages_apps_DeskClock" remote="statix" />
+  <project name="android_packages_apps_Dialer" remote="statix" />
+  <project name="android_packages_apps_DocumentsUI" remote="statix" />
+  <project name="android_packages_apps_EmergencyInfo" remote="statix" />
+  <project name="android_packages_apps_Gallery2" remote="statix" />
+  <project name="android_packages_apps_Launcher3" remote="statix" />
+  <project name="android_packages_apps_LocalUpdater" remote="statix" />
+  <project name="android_packages_apps_Messaging" remote="statix" />
+  <project name="android_packages_apps_Nfc" remote="statix" />
+  <project name="android_packages_apps_PackageInstaller" remote="statix" />
+  <project name="android_packages_apps_PhoneCommon" remote="statix" />
+  <project name="android_packages_apps_Settings" remote="statix" />
+  <project name="android_packages_apps_SettingsIntelligence" remote="statix" />
+  <project name="android_packages_apps_SimpleDeviceConfig" remote="statix" />
+  <project name="android_packages_apps_SmartNav" remote="statix" />
+  <project name="android_packages_apps_SmartNavSettings" remote="statix" />
+  <project name="android_packages_apps_Sparks" remote="statix" />
+  <project name="android_packages_apps_StatiXOSWalls" remote="statix" />
+  <project name="android_packages_apps_ThemePicker" remote="statix" />
+  <project name="android_packages_apps_Updater" remote="statix" />
+  <project name="android_packages_apps_WallpaperPicker2" remote="statix" />
+  <project name="android_packages_providers_DownloadProvider" remote="statix" />
+  <project name="android_packages_providers_WeatherProvider" remote="statix" />
+  <project name="android_packages_services_Telecomm" remote="statix" />
+  <project name="android_packages_services_Telephony" remote="statix" />
+  <project name="android_platform_testing" remote="statix" />
+  <project name="android_prebuilts_abi-dumps_ndk" remote="statix" />
+  <project name="android_prebuilts_abi-dumps_vndk" remote="statix" />
+  <project name="android_prebuilts_build-tools" remote="statix" />
+  <project name="android_prebuilts_clang_host_linux-x86" remote="statix" />
+  <project name="android_system_bt" remote="statix" />
+  <project name="android_system_core" remote="statix" />
+  <project name="android_system_extras" remote="statix" />
+  <project name="android_system_nfc" remote="statix" />
+  <project name="android_system_qcom" remote="statix" />
+  <project name="android_system_security" remote="statix" />
+  <project name="android_system_sepolicy" remote="statix" />
+  <project name="android_system_tools_hidl" remote="statix" />
+  <project name="android_system_update_engine" remote="statix" />
+  <project name="android_system_vold" remote="statix" />
+  <project name="android_vendor_codeaurora_telephony" remote="statix" />
+  <project name="android_vendor_essential" remote="statix" />
+  <project name="android_vendor_gapps" remote="statix" />
+  <project name="android_vendor_google_pixel" remote="statix" />
+  <project name="android_vendor_huawei" remote="statix" />
+  <project name="android_vendor_motorola" remote="statix" />
+  <project name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="statix" />
+  <project name="android_vendor_oneplus" remote="statix" />
+  <project name="android_vendor_qcom_opensource_audio" remote="statix" />
+  <project name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="statix" />
+  <project name="android_vendor_qcom_opensource_bluetooth_ext" remote="statix" />
+  <project name="android_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="statix" />
+  <project name="android_vendor_qcom_opensource_commonsys_system_bt" remote="statix" />
+  <project name="android_vendor_qcom_opensource_cryptfs_hw" remote="statix" />
+  <project name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="statix" />
+  <project name="android_vendor_qcom_opensource_dataservices" remote="statix" />
+  <project name="android_vendor_qcom_opensource_display-commonsys-intf" remote="statix" />
+  <project name="android_vendor_qcom_opensource_interfaces" remote="statix" />
+  <project name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="statix" />
+  <project name="android_vendor_qcom_opensource_power" remote="statix" />
+  <project name="android_vendor_qcom_opensource_rcs-service" remote="statix" />
+  <project name="android_vendor_qcom_opensource_system_bt" remote="statix" />
+  <project name="android_vendor_qcom_opensource_vibrator" remote="statix" />
+  <project name="android_vendor_qcom_opensource_wfd-commonsys" remote="statix" />
+  <project name="android_vendor_statix" remote="statix" />
+  <project name="android_vendor_support" remote="statix" />
+  <project name="android_vendor_xiaomi" remote="statix" />
+  <project name="hudson" remote="statix" />
+  <project name="statixos.github.io" remote="statix" />
   <project name="LineageOS/android_hardware_xiaomi" />
-  <project name="StatiXOS/android_art" />
-  <project name="StatiXOS/android_bionic" />
-  <project name="StatiXOS/android_bootable_recovery" />
-  <project name="StatiXOS/android_build" />
-  <project name="StatiXOS/android_build_blueprint" />
-  <project name="StatiXOS/android_build_soong" />
-  <project name="StatiXOS/android_development" />
-  <project name="StatiXOS/android_device_essential_mata" />
-  <project name="StatiXOS/android_device_google_bonito" />
-  <project name="StatiXOS/android_device_google_bonito-sepolicy" />
-  <project name="StatiXOS/android_device_google_sargo" />
-  <project name="StatiXOS/android_device_google_taimen" />
-  <project name="StatiXOS/android_device_google_wahoo" />
-  <project name="StatiXOS/android_device_huawei_angler" />
-  <project name="StatiXOS/android_device_huawei_angler-common" />
-  <project name="StatiXOS/android_device_huawei_angler_4core" />
-  <project name="StatiXOS/android_device_mediatek_sepolicy" />
-  <project name="StatiXOS/android_device_motorola_evert" />
-  <project name="StatiXOS/android_device_motorola_sdm660-common" />
-  <project name="StatiXOS/android_device_nubia_TP1803" />
-  <project name="StatiXOS/android_device_oneplus_common" />
-  <project name="StatiXOS/android_device_oneplus_extras" />
-  <project name="StatiXOS/android_device_oneplus_fajita" />
-  <project name="StatiXOS/android_device_oneplus_guacamole" />
-  <project name="StatiXOS/android_device_oneplus_guacamoleb" />
-  <project name="StatiXOS/android_device_oneplus_hotdogb" />
-  <project name="StatiXOS/android_device_oneplus_oneplus3" />
-  <project name="StatiXOS/android_device_oneplus_sdm845-common" />
-  <project name="StatiXOS/android_device_oneplus_sm8150-common" />
-  <project name="StatiXOS/android_device_qcom_common" />
-  <project name="StatiXOS/android_device_qcom_sepolicy" />
-  <project name="StatiXOS/android_device_statix_sepolicy" />
-  <project name="StatiXOS/android_device_twrp" />
-  <project name="StatiXOS/android_device_xiaomi_davinci" />
-  <project name="StatiXOS/android_device_xiaomi_ginkgo" />
-  <project name="StatiXOS/android_device_xiaomi_miatoll" />
-  <project name="StatiXOS/android_device_xiaomi_sm6250-common" />
-  <project name="StatiXOS/android_external_ant-wireless_ant_native" />
-  <project name="StatiXOS/android_external_ant-wireless_ant_service" />
-  <project name="StatiXOS/android_external_ant-wireless_antradio-library" />
-  <project name="StatiXOS/android_external_arm-optimized-routines" />
-  <project name="StatiXOS/android_external_asus_stitchimage" />
-  <project name="StatiXOS/android_external_drm_hwcomposer" />
-  <project name="StatiXOS/android_external_e2fsprogs" />
-  <project name="StatiXOS/android_external_google" />
-  <project name="StatiXOS/android_external_gptfdisk" />
-  <project name="StatiXOS/android_external_json-c" />
-  <project name="StatiXOS/android_external_libncurses" />
-  <project name="StatiXOS/android_external_libnfc-nxp" />
-  <project name="StatiXOS/android_external_perfetto" />
-  <project name="StatiXOS/android_external_selinux" />
-  <project name="StatiXOS/android_external_tinycompress" />
-  <project name="StatiXOS/android_frameworks_av" />
-  <project name="StatiXOS/android_frameworks_base" />
-  <project name="StatiXOS/android_frameworks_compile_mclinker" />
-  <project name="StatiXOS/android_frameworks_native" />
-  <project name="StatiXOS/android_frameworks_opt_net_ims" />
-  <project name="StatiXOS/android_frameworks_opt_net_wifi" />
-  <project name="StatiXOS/android_frameworks_opt_telephony" />
-  <project name="StatiXOS/android_frameworks_rs" />
-  <project name="StatiXOS/android_frameworks_support" />
-  <project name="StatiXOS/android_hardware_broadcom_wlan" />
-  <project name="StatiXOS/android_hardware_interfaces" />
-  <project name="StatiXOS/android_hardware_libhardware" />
-  <project name="StatiXOS/android_hardware_libhardware_legacy" />
-  <project name="StatiXOS/android_hardware_nxp_nfc" />
-  <project name="StatiXOS/android_hardware_qcom-caf_common" />
-  <project name="StatiXOS/android_hardware_qcom_audio" />
-  <project name="StatiXOS/android_hardware_qcom_bootctrl" />
-  <project name="StatiXOS/android_hardware_qcom_bt" />
-  <project name="StatiXOS/android_hardware_qcom_camera" />
-  <project name="StatiXOS/android_hardware_qcom_display" />
-  <project name="StatiXOS/android_hardware_qcom_fm" />
-  <project name="StatiXOS/android_hardware_qcom_gps" />
-  <project name="StatiXOS/android_hardware_qcom_keymaster" />
-  <project name="StatiXOS/android_hardware_qcom_media" />
-  <project name="StatiXOS/android_hardware_qcom_power" />
-  <project name="StatiXOS/android_hardware_qcom_wlan" />
-  <project name="StatiXOS/android_hardware_ril" />
-  <project name="StatiXOS/android_hardware_statix_interfaces" />
-  <project name="StatiXOS/android_kernel_essential_msm8998" />
-  <project name="StatiXOS/android_kernel_google_bonito" />
-  <project name="StatiXOS/android_kernel_google_wahoo" />
-  <project name="StatiXOS/android_kernel_huawei_angler" />
-  <project name="StatiXOS/android_kernel_motorola_msm8998" />
-  <project name="StatiXOS/android_kernel_nubia_sm8150" />
-  <project name="StatiXOS/android_kernel_oneplus_msm8996" />
-  <project name="StatiXOS/android_kernel_oneplus_sdm845" />
-  <project name="StatiXOS/android_kernel_oneplus_sm8150" />
-  <project name="StatiXOS/android_kernel_xiaomi_davinci" />
-  <project name="StatiXOS/android_kernel_xiaomi_ginkgo" />
-  <project name="StatiXOS/android_kernel_xiaomi_sm6250" />
-  <project name="StatiXOS/android_libcore" />
-  <project name="StatiXOS/android_manifest" />
-  <project name="StatiXOS/android_packages_apps_AuxiliaryKeyHandler" />
-  <project name="StatiXOS/android_packages_apps_Bluetooth" />
-  <project name="StatiXOS/android_packages_apps_Changelog" />
-  <project name="StatiXOS/android_packages_apps_Contacts" />
-  <project name="StatiXOS/android_packages_apps_CustomDoze" />
-  <project name="StatiXOS/android_packages_apps_DeskClock" />
-  <project name="StatiXOS/android_packages_apps_Dialer" />
-  <project name="StatiXOS/android_packages_apps_DocumentsUI" />
-  <project name="StatiXOS/android_packages_apps_EmergencyInfo" />
-  <project name="StatiXOS/android_packages_apps_Gallery2" />
-  <project name="StatiXOS/android_packages_apps_Launcher3" />
-  <project name="StatiXOS/android_packages_apps_LocalUpdater" />
-  <project name="StatiXOS/android_packages_apps_Messaging" />
-  <project name="StatiXOS/android_packages_apps_Nfc" />
-  <project name="StatiXOS/android_packages_apps_PackageInstaller" />
-  <project name="StatiXOS/android_packages_apps_PhoneCommon" />
-  <project name="StatiXOS/android_packages_apps_Settings" />
-  <project name="StatiXOS/android_packages_apps_SettingsIntelligence" />
-  <project name="StatiXOS/android_packages_apps_SimpleDeviceConfig" />
-  <project name="StatiXOS/android_packages_apps_SmartNav" />
-  <project name="StatiXOS/android_packages_apps_SmartNavSettings" />
-  <project name="StatiXOS/android_packages_apps_Sparks" />
-  <project name="StatiXOS/android_packages_apps_StatiXOSWalls" />
-  <project name="StatiXOS/android_packages_apps_ThemePicker" />
-  <project name="StatiXOS/android_packages_apps_Updater" />
-  <project name="StatiXOS/android_packages_apps_WallpaperPicker2" />
-  <project name="StatiXOS/android_packages_providers_DownloadProvider" />
-  <project name="StatiXOS/android_packages_providers_WeatherProvider" />
-  <project name="StatiXOS/android_packages_services_Telecomm" />
-  <project name="StatiXOS/android_packages_services_Telephony" />
-  <project name="StatiXOS/android_platform_testing" />
-  <project name="StatiXOS/android_prebuilts_abi-dumps_ndk" />
-  <project name="StatiXOS/android_prebuilts_abi-dumps_vndk" />
-  <project name="StatiXOS/android_prebuilts_build-tools" />
-  <project name="StatiXOS/android_prebuilts_clang_host_linux-x86" />
-  <project name="StatiXOS/android_system_bt" />
-  <project name="StatiXOS/android_system_core" />
-  <project name="StatiXOS/android_system_extras" />
-  <project name="StatiXOS/android_system_nfc" />
-  <project name="StatiXOS/android_system_qcom" />
-  <project name="StatiXOS/android_system_security" />
-  <project name="StatiXOS/android_system_sepolicy" />
-  <project name="StatiXOS/android_system_tools_hidl" />
-  <project name="StatiXOS/android_system_update_engine" />
-  <project name="StatiXOS/android_system_vold" />
-  <project name="StatiXOS/android_vendor_codeaurora_telephony" />
-  <project name="StatiXOS/android_vendor_essential" />
-  <project name="StatiXOS/android_vendor_gapps" />
-  <project name="StatiXOS/android_vendor_google_pixel" />
-  <project name="StatiXOS/android_vendor_huawei" />
-  <project name="StatiXOS/android_vendor_motorola" />
-  <project name="StatiXOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
-  <project name="StatiXOS/android_vendor_oneplus" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_audio" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_bluetooth_ext" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_commonsys_system_bt" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_cryptfs_hw" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_dataservices" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_display-commonsys-intf" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_interfaces" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_power" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_rcs-service" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_system_bt" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_vibrator" />
-  <project name="StatiXOS/android_vendor_qcom_opensource_wfd-commonsys" />
-  <project name="StatiXOS/android_vendor_statix" />
-  <project name="StatiXOS/android_vendor_support" />
-  <project name="StatiXOS/android_vendor_xiaomi" />
-  <project name="StatiXOS/hudson" />
-  <project name="StatiXOS/statixos.github.io" />
   <project name="ThankYouMario/proprietary_vendor_qcom_common" />
   <project name="kdrag0n/proton-clang" />
   <project name="mvaisakh/gcc-arm64" />
