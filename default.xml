@@ -179,4 +179,5 @@
   <project name="StatiXOS/statixos.github.io" />
   <project name="ThankYouMario/proprietary_vendor_qcom_common" />
   <project name="kdrag0n/proton-clang" />
+  <project name="mvaisakh/gcc-arm64" />
 </manifest>
